@@ -1,0 +1,65 @@
+.attribution {
+	text-align: center;
+	margin-top: 20px;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: hsl(233, 47%, 7%);
+	margin: auto;
+	padding: 20px;
+}
+
+main {
+	border: 1px solid none;
+	border-radius: 10px;
+	background-color: hsl(244, 38%, 16%);
+	width: 60vw;
+	height: auto;
+	color: hsl(0, 0%, 100%);
+	overflow: auto;
+	margin: auto;
+}
+
+.heading {
+	text-align: left;
+	padding: 50px;
+}
+
+.contents > div {
+	text-align: center;
+	line-height: 40px;
+	font-size: 2em;
+	padding: 10px;
+}
+
+.light-para {
+	color: hsla(0, 0%, 100%, 0.6);
+	font-size: 0.8rem;
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+
+@media (min-width: 1024px) {
+	main {
+		display: flex;
+		align-content: center ;
+		width: auto;
+		flex-direction: row-reverse;
+	}
+	body {
+		margin: 60px;
+	}
+	img {
+		width: auto;
+		filter: opacity(30%);
+	}
+	.contents {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-right: 80px;
+		margin-top: 80px;
+	}
+}
